@@ -28,3 +28,25 @@ let someNumber=33
 
 let stringNumber= String(someNumber)
 console.log(stringNumber);
+
+//operations:
+
+let value=3
+let negValue=-value
+console.log(negValue)
+
+console.log(2-"6")
+console.log(6-"2");
+console.log("6"-2)
+console.log(2+2+2+"5")
+console.log("7"+2+1)
+console.log("true")
+
+let x=5;
+let y=x++;
+
+console.log(`x: ${x} y:${y}`)
+
+let a=10
+b=a--
+console.log(`a:${a}, b:${b}`)
