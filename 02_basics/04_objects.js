@@ -64,3 +64,39 @@ console.log(Object.values(tinderUser));// we can get values and well
 
 console.log(tinderUser.hasOwnProperty('dododada'));// output false
 console.log(tinderUser.hasOwnProperty('id'));//output true
+
+// destructuring
+
+const course ={
+    coursename: "JS",
+    Price: "$799",
+    courseintructor: "karan",
+
+
+}
+
+// console.log(courseintructor); wrong, do not use like this.
+
+// console.log(course.courseintructor);
+
+//another way to print the value;
+
+// const {courseintructor} = course
+
+// console.log(courseintructor);
+
+//we can change the name as well
+
+const{courseintructor: sir} = course// we can change the big name to small if we want.
+console.log(sir);
+
+const navbar =({Company})=>{
+
+}
+navbar(Company="yoyo"),
+
+console.log(Company); // this is for React, but this is also destructuring.
+
+
+//API
+
