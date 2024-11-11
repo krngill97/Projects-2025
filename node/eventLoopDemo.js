@@ -29,3 +29,4 @@ Non-blocking nature: The program doesn't wait for fs.readFile to complete and mo
 Event Loop: Ensures the callback is executed after the file is read.
 Next Exercise: Delays with setTimeout
 Let’s dive deeper by introducing */
+
